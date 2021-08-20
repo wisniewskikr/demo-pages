@@ -51,3 +51,25 @@ USAGE
 
 Link to main UI:
 * http://[server]
+
+DOCKER
+------
+
+Commands about images:
+* docker images: list of all images
+* docker rmi <IMAGE ID>: remove image with specific id
+
+Command about container:
+* docker ps: list of active containers
+* docker ps -a: list of all containers
+* docker stop <CONTAINER ID>: stop container with specific id
+* docker start <CONTAINER ID>: start container with specific id
+* docker rm <CONTAINER ID>: remove container with specific id
+
+Commands to build, run and deploy Docker image:
+* docker build -t wisniewskikr/demo-pages .
+* docker run -p 8080:8080 wisniewskikr/demo-pages
+* docker push wisniewskikr/demo-pages
+
+Docker page:
+https://hub.docker.com/
